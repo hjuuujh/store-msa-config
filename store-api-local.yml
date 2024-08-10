@@ -8,6 +8,8 @@ spring:
   jpa:
     show-sql: true
     hibernate:
-      ddl-auto: update
-  jwt:
-    secret: c3ByaW5nLWJvb3QtZGl2aWVuZC1wcm9qZWN0LXR1dG9yaWFsLWp3dC1zZWNyZXQta2V5Cg
+      ddl-auto: update   
+
+kakao:
+  api:
+    key: 8d47367161c07dc0cab1a8ab672e6651
