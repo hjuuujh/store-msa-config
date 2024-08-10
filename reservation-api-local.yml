@@ -3,7 +3,8 @@ spring:
     url: jdbc:mysql://store-mysql:3306/store?userSSL=false&useUnicode=true&allowPublicKeyRetrieval=true
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
-    password: 1234
+    password: '{cipher}AQAijfMnpxnV7cROWuYAvj6lj9HvZrAEiT/yH9q0azW7cExohdqSEviY5zv0K1pdHH8uPY4PaZBRd8OUPJJDW6XsR4MIPndzSCeqAGzYdVut3DW/T/yLDcoxwwXGNha9INM86l34UWW9fGUpFUHbPYdE7uqjX7R1bmboYIxr3uI38yjRd0H3BLsbXzwsEVyKC3ulFqwWUKhWcnJRg8ayCcRFMCdXVbf2sV1ATL73hsfpFtXrjjtHu9i0xo6vdsmiKMOPrEJSRekEPxNB++4dbDZN9/PbhlzP+GdHb2VeUINMk/27biA8myYcBo00RwACoYgi02oMDYPT5GBeKSZTcN8aXFoH4lDE1kTqd0qsh3TJcgfRZzRXAzR1PT23qosDd2M='
+  
 
   jpa:
     show-sql: true
